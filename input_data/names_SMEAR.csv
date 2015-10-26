@@ -1,0 +1,32 @@
+fetname
+{Precipitation (mm, includes snow)}
+{Air temperature at 16 m height (deg C)}
+{Atmospheric pressure (hPa)}
+{Relative humidity (\%)}
+{CO2 concentration at 16 m height (ppm)}
+{H2O concentration at 16 m height (ppth)}
+{Volumetric water content (m3/m3) in organic layer}
+{Volumetric water content (m3/m3) in A horizon}
+{Volumetric water content (m3/m3) in B horizon}
+{Volumetric water content (m3/m3) in C horizon}
+{Temperature in organic layer}
+{Temperature in A horizon}
+{Temperature in B horizon}
+{Temperature in C horizon}
+{NEE (?mol m-2 s-1)}
+{Ecosystem respiration (TER, modelled, ?mol m-2 s-1)}
+{GPP (?mol m-2 s-1)}
+{Evapotranspiration, stability/turbulence filtering (mmol m-2 s-1)}
+{Sensible heat flux (W m-2)}
+{Vapour Pressure Deficit (kPa)}
+{Global shortwave radiation (W m-2)}
+{Reflected shortwave radiation (W m-2)}
+{PPFD (?mol m-2 s-1)}
+{Reflected PPFD (?mol m-2 s-1)}
+{UVA 320-400 nm (W m-2)}
+{UVB 280-320 nm (W m-2)}
+{snow (cm)}
+{snow (yes/no)}
+{Wind speed at 16 m (m s-1)}
+{wind direction N-S (cos)}
+{wind direction E-W (sin)}

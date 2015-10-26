@@ -1,0 +1,31 @@
+1&\checkmark&{Precipitation (mm, includes snow)}&1\%\\
+2&\checkmark&{Air temperature at 16 m height (deg C)}&-\\
+3& &{Atmospheric pressure (hPa)}&-\\
+4&\checkmark&{Relative humidity (\%)}&-\\
+5& &{CO2 concentration at 16 m height (ppm)}&-\\
+6& &{H2O concentration at 16 m height (ppth)}&-\\
+7& &{Volumetric water content (m3/m3) in organic layer}&50\%\\
+8&\checkmark&{Volumetric water content (m3/m3) in A horizon}&50\%\\
+9& &{Volumetric water content (m3/m3) in B horizon}&50\%\\
+10& &{Volumetric water content (m3/m3) in C horizon}&50\%\\
+11& &{Temperature in organic layer}&1\%\\
+12& &{Temperature in A horizon}&1\%\\
+13&\checkmark&{Temperature in B horizon}&1\%\\
+14& &{Temperature in C horizon}&1\%\\
+15&\checkmark&{NEE (?mol m-2 s-1)}&-\\
+16&\checkmark&{Ecosystem respiration (TER, modelled, ?mol m-2 s-1)}&-\\
+17&\checkmark&{GPP (?mol m-2 s-1)}&-\\
+18&\checkmark&{Evapotranspiration, stability/turbulence filtering (mmol m-2 s-1)}&1\%\\
+19& &{Sensible heat flux (W m-2)}&-\\
+20& &{Vapour Pressure Deficit (kPa)}&-\\
+21&\checkmark&{Global shortwave radiation (W m-2)}&9\%\\
+22& &{Reflected shortwave radiation (W m-2)}&10\%\\
+23&\checkmark&{PPFD (?mol m-2 s-1)}&-\\
+24& &{Reflected PPFD (?mol m-2 s-1)}&11\%\\
+25& &{UVA 320-400 nm (W m-2)}&6\%\\
+26& &{UVB 280-320 nm (W m-2)}&7\%\\
+27&\checkmark&{snow (cm)}&3\%\\
+28&\checkmark&{snow (yes/no)}&3\%\\
+29& &{Wind speed at 16 m (m s-1)}&-\\
+30& &{wind direction N-S (cos)}&8\%\\
+31& &{wind direction E-W (sin)}&8\%\\
