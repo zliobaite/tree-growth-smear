@@ -1,0 +1,32 @@
+fetname
+{Precipitation}
+{Air temperature}
+{Atmospheric pressure}
+{Relative humidity}
+{CO2 concentration}
+{H2O concentration}
+{Water in organic}
+{Water in A horizon}
+{Water in B horizon}
+{Water in C horizon}
+{Temp. in organic}
+{Temp. in A horizon}
+{Temp. in B horizon}
+{Temp. in C horizon}
+{NEE}
+{TER}
+{GPP}
+{Evapotranspiration}
+{Sensible heat flux}
+{VPD}
+{Global radiation}
+{Reflected radiation}
+{PAR}
+{Reflected PAR}
+{UVA}
+{UVB}
+{Snow level}
+{Snow presence}
+{Wind speed}
+{Wind direction E-W}
+{Wind direction N-S}

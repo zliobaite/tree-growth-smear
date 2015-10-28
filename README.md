@@ -28,8 +28,16 @@ Table 1 summarizing the variables is produced into
 	
 3. Correlation analysis reported in Figure 2 is produced by 
 
-		run3
+		run3_correlations.R
+		
+Correlation tables for produciing Figure 2 are output to 
+
+	results/corr_heights.dat	results/corr_widths.dat
 	
+4. Results for baseline models and traditional models
+
+		run4_regression_greedy.R
+
 
 	
 	
