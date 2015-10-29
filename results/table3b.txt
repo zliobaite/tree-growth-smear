@@ -1,0 +1,8 @@
+{Reflected PAR} & {UVB} & {Snow level} & {Snow presence} & 0.63 & 0.81\\ 
+{Water in A horizon} & {GPP} & {Sensible heat flux} & {UVB} & 0.6 & 0.89\\ 
+{H2O concentration} & {Temp. in B horizon} & {NEE} & {PAR} & 0.46 & 0.74\\ 
+{Precipitation} & {Relative humidity} & {TER} & {UVB} & 0.38 & 0.84\\ 
+{PAR} & {UVB} &   &   & 0.33 & 0.63\\ 
+{H2O concentration} & {GPP} & {Reflected radiation} & {Reflected PAR} & 0.31 & 0.77\\ 
+{Water in B horizon} & {Temp. in A horizon} & {NEE} & {Sensible heat flux} & 0.17 & 0.79\\ 
+{NEE} & {Reflected PAR} & {Wind direction E-W} &   & 0.15 & 0.64\\ 

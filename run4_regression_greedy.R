@@ -18,7 +18,7 @@ out_file_N4_widths <- 'processed_data/greedy_R2_N4_widths.csv'
 out_file_N4_heights <- 'processed_data/greedy_R2_N4_heights.csv'
 out_weeks_widths <- 'processed_data/weeks_strongest_widths.csv'
 out_weeks_heights <- 'processed_data/weeks_strongest_heights.csv'
-out_file_table <- 'results/table4.txt'
+out_file_table <- 'results/table2.txt'
 
 features_all <- read.csv(input_file_features, header = FALSE, sep = ',')
 encoding_all <- read.csv(input_file_encoding, header = FALSE, sep = ',')

@@ -1,0 +1,8 @@
+{Precipitation} & {Water in C horizon} & {GPP} & {Sensible heat flux} & 0.52 & 0.81\\ 
+{H2O concentration} & {Water in C horizon} & {Temp. in B horizon} & {NEE} & 0.48 & 0.92\\ 
+{Precipitation} & {Temp. in B horizon} & {Temp. in C horizon} & {Evapotranspiration} & 0.41 & 0.7\\ 
+{Air temperature} & {Water in B horizon} & {Water in C horizon} & {Reflected radiation} & 0.38 & 0.75\\ 
+{H2O concentration} & {Sensible heat flux} & {Reflected radiation} &   & 0.36 & 0.67\\ 
+{Precipitation} & {NEE} &   &   & 0.35 & 0.59\\ 
+{H2O concentration} & {Water in B horizon} & {Temp. in C horizon} & {GPP} & 0.28 & 0.84\\ 
+{Water in organic} & {Temp. in B horizon} & {Reflected radiation} &   & 0.17 & 0.57\\ 
