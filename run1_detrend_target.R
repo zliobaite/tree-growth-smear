@@ -10,6 +10,9 @@ input_file_raw_heights <- 'input_data/raw_heights.csv' #height growth
 output_file_target_widths <- 'processed_data/targets_widths.csv'
 output_file_target_heights <- 'processed_data/targets_heights.csv'
 
+plot_name_width <- 'results/fig7a_intercor_width.pdf'
+plot_name_height <- 'results/fig7b_intercor_height.pdf'
+
 detrend_method_widths <- "ModNegExp"
 detrend_method_heights <- "Spline"
 
@@ -82,8 +85,32 @@ make_target <- function(data_detrended,year_start_target,year_end_target,c,cik,o
   target <- cbind(years_target,bi_mean)
   target <- round(target,digits = 4)
   write.table(target, file = output_file_target, row.names=FALSE, col.names=FALSE, sep="\t")
+  return(target)
 }
 
-make_target(widths_detrended,year_start_target_widths,year_end_target_widths,c,cik,output_file_target_widths)
+compute_intercorrelations <- function(data_detrended,year_start_target,year_end_target,target){
+  years_target <- c(year_start_target:year_end_target)
+  data_detrended <- data_detrended[as.character(years_target),]
+  all_cors <- c()
+  for (sk in 1:dim(data_detrended)[2]){
+    cor_now <- cor(target[,'bi_mean'],data_detrended[,sk])
+    all_cors <- c(all_cors,cor_now)
+  }
+  return(all_cors)
+}
 
-make_target(heights_detrended,year_start_target_heights,year_end_target_heights,c,cik,output_file_target_heights)
+target_widths <- make_target(widths_detrended,year_start_target_widths,year_end_target_widths,c,cik,output_file_target_widths)
+
+target_heights <- make_target(heights_detrended,year_start_target_heights,year_end_target_heights,c,cik,output_file_target_heights)
+
+cors_width <- compute_intercorrelations(widths_detrended,year_start_target_widths,year_end_target_widths,target_widths)
+
+cors_height <- compute_intercorrelations(heights_detrended,year_start_target_heights,year_end_target_heights,target_heights)
+
+pdf(plot_name_width,width=2.5,height=4)
+boxplot(cors_width,ylab= 'correlation coefficient', main = 'ring width')
+dev.off()
+
+pdf(plot_name_height,width=2.5,height=4)
+boxplot(cors_height, ylab = 'correlation coefficient',main = 'height growth')
+dev.off()
